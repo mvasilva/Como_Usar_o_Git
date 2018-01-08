@@ -1,0 +1,20 @@
+Passo a Passo Git
+
+
+Para iniciar um projeto do zero mas que já existe um repositório remoto, usar o comando git clone 
+
+Caso não exista um branch, usar o comando (git checkout -b nome_da_branch) para criar uma nova branch. Se ela já existe usar o comando (git checkout nome_da_branch) para indicar ao repositorio local que está trabalhando nessa branch e executar o comando (git pull endereço_do_repositorio_remoto nome_da_branch) para adquirir as alterações
+
+Se existir arquivos novos, usar o comando (git add -A) para adicionar todos os arquivos. Esse comando irá adicionar ao Header do repositorio local que há arquivos novos
+
+Após concluir as alterações, realizar o comanto (git commit -am "Mensagem de commit") para indicar as alterações do repositório e usar o comando (git push endereço_do_repositorio_remoto nome_da_branch) para enviar ao repositório remoto as alterações.
+
+Depois que tudo estiver pronto, funcionando e testado. Usar o comando (git checkout master) para apontar para o repositório principal, (git merge nome_da_branch) para fazer o merge com o fluxo principal e (git push endereço_do_repositorio_remoto master) para enviar as alterações  
+
+  
+
+
+
+
+  
+
